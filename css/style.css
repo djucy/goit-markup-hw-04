@@ -280,7 +280,7 @@ p {
 }
 .list-networking {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   list-style-type: none;
 }
 .item-networking {
