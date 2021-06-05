@@ -288,11 +288,17 @@ p {
   padding: 0;
 }
 .item-networking {
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+.icon-networking {
+  justify-content: center;
+  align-items: center;
+}
+.icon-networking:hover,
+.icon-networking:focus {
+  fill: #ffffff;
 }
 .item-networking:hover,
 .item-networking:focus {
