@@ -292,6 +292,10 @@ p {
   height: 44px;
   border-radius: 50%;
 }
+.item-networking a {
+  justify-content: center;
+  align-items: center;
+}
 .icon-networking {
   justify-content: center;
   align-items: center;
