@@ -261,6 +261,9 @@ p {
 }
 .item .duties {
   text-align: center;
+
+  margin-bottom: 16px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
@@ -282,8 +285,11 @@ p {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding: 0;
 }
 .item-networking {
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
