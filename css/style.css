@@ -220,6 +220,16 @@ p {
 
   color: var(--grey);
 }
+.box-advantage {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.icon-advantage {
+  display: block;
+  align-items: center;
+}
 
 /* What are we doing section */
 .list-images {
