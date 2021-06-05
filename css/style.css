@@ -112,17 +112,17 @@ p {
   margin-left: auto;
 }
 .nav-contact-link {
+  display: block;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .icon-nav-contact {
-  display: block;
   margin-right: 10px;
   fill: currentColor;
 }
 .icon-nav-contact:hover,
 .icon-nav-contact:focus {
-  stroke: #2196f3;
+  fill: currentColor;
 }
 .icon-env {
   width: 16px;
