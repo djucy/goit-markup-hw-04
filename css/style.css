@@ -287,15 +287,15 @@ p {
   list-style-type: none;
   padding: 0;
 }
-.item-networking {
-  display: block;
+
+.item-networking a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
-.item-networking a {
-  justify-content: center;
-  align-items: center;
 }
 .icon-networking {
   justify-content: center;
@@ -312,6 +312,20 @@ p {
 .what-we-doing-section {
   padding-top: 0px;
 }
+
+/* Our clients */
+.item-clients {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.list-images .item-clients + .item-clients {
+  margin-left: 30px;
+}
+
 /* Footer */
 .footer .studio-logo {
   color: var(--white);
