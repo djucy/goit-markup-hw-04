@@ -288,7 +288,7 @@ p {
   padding: 0;
 }
 
-.item-networking a {
+.item-networking-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,8 +298,7 @@ p {
   border-radius: 50%;
 }
 .icon-networking {
-  justify-content: center;
-  align-items: center;
+  fill: #afb1b8;
 }
 .icon-networking:hover,
 .icon-networking:focus {
