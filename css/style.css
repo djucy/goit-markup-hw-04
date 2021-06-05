@@ -280,7 +280,17 @@ p {
 }
 .list-networking {
   display: flex;
-  /* list-style-type: none; */
+  justify-content: center;
+  list-style-type: none;
+}
+.item-networking {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.item-networking:hover,
+.item-networking:focus {
+  background-color: var(--blue);
 }
 .what-we-doing-section {
   padding-top: 0px;
