@@ -179,7 +179,7 @@ p {
 .button-service:hover,
 .button-service:focus {
   background-color: #188ce8;
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Our advantage section */
@@ -277,7 +277,7 @@ p {
   margin-left: 30px;
 }
 .list-images .item {
-  background-color: #ffffff;
+  background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -289,26 +289,25 @@ p {
   padding: 0;
 }
 .item-networking {
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
 }
 .item-networking-link {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.icon-networking {
+
+  width: 44px;
+  height: 44px;
+
   fill: var(--light-grey);
 }
-.icon-networking:hover,
-.icon-networking:focus {
-  fill: #ffffff;
-}
-.item-networking:hover,
-.item-networking:focus {
+
+.icon-networking-link:hover,
+.icon-networking-link:focus {
+  fill: var(--white);
   background-color: var(--blue);
 }
+
 .what-we-doing-section {
   padding-top: 0px;
 }
@@ -323,8 +322,8 @@ p {
 }
 .link-client {
   display: flex;
-  justify-content: centr;
-  align-items: centr;
+  justify-content: center;
+  align-items: center;
 
   width: 170px;
   height: 92px;
@@ -340,6 +339,7 @@ p {
 }
 
 .icon-clients {
+  display: block;
   width: 106px;
   height: 60px;
 }
