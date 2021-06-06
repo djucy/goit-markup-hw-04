@@ -284,9 +284,9 @@ p {
 }
 .list-networking {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
 }
 /* .item-networking {
   border-radius: 50%; */
