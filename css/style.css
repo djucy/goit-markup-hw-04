@@ -302,8 +302,8 @@ p {
   fill: var(--light-grey);
 }
 
-.icon-networking-link:hover,
-.icon-networking-link:focus {
+.item-networking-link:hover,
+.item-networking-link:focus {
   fill: var(--white);
   background-color: var(--blue);
 }
