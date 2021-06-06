@@ -314,13 +314,9 @@ p {
 }
 
 /* Our clients */
-.item-clients {
+/* .item-clients {
   display: block;
-  width: 170px;
-  height: 92px;
-  border: 1px solid var(--light-grey);
-  border-radius: 4px;
-}
+} */
 
 .list-images .item-clients + .item-clients {
   margin-left: 30px;
@@ -329,12 +325,23 @@ p {
   display: flex;
   justify-content: centr;
   align-items: centr;
+
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+
+  fill: var(--light-grey);
 }
+.link-client:hover {
+  border: 1px solid var(--blue);
+
+  fill: var(--blue);
+}
+
 .icon-clients {
   width: 106px;
   height: 60px;
-
-  fill: var(--light-grey);
 }
 /* Footer */
 .footer .studio-logo {
