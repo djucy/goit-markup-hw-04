@@ -288,9 +288,13 @@ p {
   list-style-type: none;
   padding: 0;
 }
-.item-networking {
-  border-radius: 50%;
+/* .item-networking {
+  border-radius: 50%; */
+/* } */
+.list-networking .item-networking + .item-networking {
+  margin-left: 10px;
 }
+
 .item-networking-link {
   display: flex;
   justify-content: center;
@@ -298,12 +302,14 @@ p {
 
   width: 44px;
   height: 44px;
-
-  fill: var(--light-grey);
+  border-radius: 50%;
 }
 
-.item-networking-link:hover,
-.item-networking-link:focus {
+.color-icon-worker {
+  fill: var(--light-grey);
+}
+.color-icon-worker:hover,
+.color-icon-worker:focus {
   fill: var(--white);
   background-color: var(--blue);
 }
@@ -352,8 +358,17 @@ p {
 }
 
 .container-footer {
-  padding-bottom: 60px;
-  padding-top: 60px;
+  display: flex;
+
+  width: 1600px;
+  height: 252px;
+}
+
+.adress-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 215px;
+  margin-right: 70px;
 }
 .container-footer .logo {
   margin-bottom: 20px;
@@ -381,6 +396,24 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 
+/* Join section */
+.join-container {
+  margin-top: 72px;
+  margin-bottom: 100px;
+
+  width: 206px;
+  height: 80px;
+}
+
+.color-icon-join {
+  fill: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.color-icon-join:hover,
+.color-icon-join:focus {
+  fill: var(--white);
+  background-color: var(--blue);
+}
 /* Section portfolio */
 
 /* Button */
