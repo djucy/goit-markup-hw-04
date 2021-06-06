@@ -275,8 +275,6 @@ p {
 .box-worker .duties {
   text-align: center;
 
-  margin-bottom: 16px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
@@ -299,6 +297,7 @@ p {
   justify-content: center;
   list-style-type: none;
   padding-left: 0;
+  margin-top: 16px;
 }
 /* .item-networking {
   border-radius: 50%; */
