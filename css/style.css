@@ -404,6 +404,9 @@ p {
   width: 206px;
   height: 80px;
 }
+.join-container b {
+  color: var(--white);
+}
 
 .color-icon-join {
   fill: var(--white);
