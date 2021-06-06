@@ -151,13 +151,16 @@ p {
   color: var(--white);
 }
 .section-title {
-  /* background: var(--black-rock); */
+  background: var(--black-rock);
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
   height: 600px;
-  background-image: linear-gradient
-      (to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   box-sizing: cover;
